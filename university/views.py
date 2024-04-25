@@ -1,6 +1,6 @@
 from django.http import HttpResponse, Http404
 from django.shortcuts import render,redirect
-from university import models
+from university import models ,forms
 
 
 # Course
@@ -197,3 +197,76 @@ def passratequery(request):
         return render(request, 'university/evaluation/passratequery.html', {'error': 'Both semester and percentage are required.'})
     
     return handle_pass_rate_query(request, semester_param, percentage_param)
+
+
+
+
+def query_course(request):
+    form = forms.QueryCourseForm(request.POST or None)
+    sections = None
+
+    if request.method == 'POST' and form.is_valid():
+        course = form.cleaned_data['course']
+        year = form.cleaned_data['year']
+        semester = form.cleaned_data['semester']
+        sections = models.Section.objects.filter(
+            course=course,
+            year=year,
+            semester=semester
+        )
+    return render(
+        request,
+        'university/course/course_result.html',
+        {'form': form, 'sections': sections}
+    )
+
+
+def instructor_sections(request):
+    form = forms.QueryInstructorForm(request.POST or None)
+    sections = None
+    if request.method == 'POST' and form.is_valid():
+        instructor = form.cleaned_data['instructor']
+        year = form.cleaned_data['year']
+        semester = form.cleaned_data['semester']
+        sections = models.Section.objects.filter(
+            instructor=instructor,
+            year=year,
+            semester=semester
+        )
+
+    return render(request, 'university/instructor/instructor_result.html', {
+        'form': form,
+        'sections': sections
+    })
+
+
+def degree_details(request):
+    # Initialize the form with POST data or None
+    form = forms.DegreeQueryForm(request.POST or None)
+
+    # Prepare the initial context
+    context = {'form': form}
+
+    if request.method == 'POST' and form.is_valid():
+        degree = form.cleaned_data['degree']
+
+        if degree:
+            courses = models.Course.objects.filter(degreecourse__degree=degree)
+            sections = models.Section.objects.filter().order_by('-year', 'semester')
+
+            objectives = models.Objective.objects.all()
+
+            objectives_courses = {
+                objective: models.Course.objects.filter(objective=objective)
+                for objective in objectives
+            }
+
+            context.update({
+                'degree': degree,
+                'courses': courses,
+                'sections': sections,
+                'objectives': objectives,
+                'objectives_courses': objectives_courses,
+            })
+
+    return render(request, 'university/degree/degree_result.html', context)
