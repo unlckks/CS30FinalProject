@@ -29,9 +29,9 @@
     },
     {
         "model": "university.instructor",
-        "pk": "IN453",
+        "pk": "IN455",
         "fields": {
-            "name": "Steve Doe"
+            "name": "Charlie Brown"
         }
     }
 ]

@@ -3,14 +3,5233 @@
         "model": "university.evaluation",
         "pk": 1,
         "fields": {
-            "method": "Final Exam",
-            "levelA_stu_num": 15,
-            "levelB_stu_num": 40,
-            "levelC_stu_num": 50,
-            "levelF_stu_num": 15,
-            "improvement_suggestions": "More hands-on lab sessions recommended.",
-            "course": "CS101",
-            "section": 1
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 2,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 3,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 4,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 5,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 6,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 7,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 8,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 9,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 10,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 11,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 12,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 13,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 14,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 15,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 16,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 17,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 18,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 19,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 20,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 21,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 22,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 23,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 24,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 25,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 26,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 27,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 28,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 29,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 30,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 31,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 32,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 33,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 34,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 35,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 36,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 37,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 38,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 39,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 40,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 41,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 42,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 43,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 44,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 45,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7343",
+            "section": "103",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 46,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 47,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 48,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 49,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 50,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 51,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 52,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 53,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 54,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 55,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 56,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 57,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 58,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 59,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 60,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 61,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 62,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 63,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 64,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 65,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 66,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 67,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 68,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 69,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 70,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 71,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 72,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 73,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 74,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 75,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 76,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 77,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 78,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 79,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 80,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 81,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 82,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 83,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 84,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 85,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7330",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 86,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 87,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 88,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 89,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 90,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 91,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 92,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 93,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 94,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 95,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 96,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 97,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 98,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 99,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 100,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7312",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 101,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 102,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 103,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 104,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 105,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 106,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "314",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 107,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "314",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 108,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "314",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 109,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "314",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 110,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "314",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 111,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "314",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 112,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "314",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 113,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "314",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 114,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "314",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 115,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7314",
+            "section": "314",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 116,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 117,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 118,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 119,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 120,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 121,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 122,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 123,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 124,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 125,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 126,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 127,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 128,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 129,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 130,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7328",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 131,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 132,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 133,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 134,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 135,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 136,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 137,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 138,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 139,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 140,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 141,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 142,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 143,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 144,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 145,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 146,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 147,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 148,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 149,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 150,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 151,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 152,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 153,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 154,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 155,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 156,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 157,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 158,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 159,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 160,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7339",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 161,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 162,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 163,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 164,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 165,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 166,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 167,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 168,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 169,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 170,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 171,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 172,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 173,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 174,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 175,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 176,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 177,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 178,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 179,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 180,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 181,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 182,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 183,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 184,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 185,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 186,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 187,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 188,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 189,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 190,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7349",
+            "section": "102",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 191,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 192,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 193,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 194,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 195,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 196,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 197,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 198,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 199,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 200,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 201,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 202,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 203,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 204,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 205,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 206,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 207,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 208,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 209,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 210,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 211,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 212,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 213,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 214,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 215,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Datacenter System Engineering",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 216,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 217,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 218,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 219,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 220,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS7359",
+            "section": "101",
+            "degree_name": "Cybersecurity",
+            "degree_level": "MS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 221,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 222,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 223,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 224,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 225,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 226,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 227,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 228,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 229,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 230,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 231,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 232,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 233,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 234,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 235,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 236,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 237,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 238,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 239,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 240,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 241,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 242,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 243,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 244,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 245,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 246,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 247,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 248,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 249,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 250,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS2341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 251,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 252,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 253,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 254,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 255,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 256,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 257,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 258,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 259,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 260,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 261,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 262,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 263,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 264,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 265,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 266,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 267,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 268,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 269,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 270,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 271,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 272,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 273,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 274,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 275,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 276,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 277,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 278,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 279,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 280,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS3341",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 281,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 282,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 283,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 284,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 285,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 286,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 287,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 288,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 289,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 290,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 291,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 292,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 293,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 294,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 295,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 296,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 297,
+        "fields": {
+            "method": "lab",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 298,
+        "fields": {
+            "method": "presentation",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 299,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 300,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "MATH1340",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+
+    {
+        "model": "university.evaluation",
+        "pk": 1,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 2,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 3,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 4,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 5,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 6,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 7,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "103",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 8,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "103",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 9,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "103",
+            "degree_name": "Computer Science",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 10,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 11,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 12,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "101",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 13,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 14,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 15,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "102",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 16,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "103",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 17,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "103",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 18,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "103",
+            "degree_name": "Electrical and Computer Engineering",
+            "degree_level": "BS"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 19,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 20,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 21,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "101",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 22,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 23,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 24,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "102",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 25,
+        "fields": {
+            "method": "assignment",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "103",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 26,
+        "fields": {
+            "method": "final exam",
+            "levelA_stu_num": null,
+            "levelB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "103",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
+        }
+    },
+    {
+        "model": "university.evaluation",
+        "pk": 27,
+        "fields": {
+            "method": "quiz",
+            "levelA_stu_num": null,
+            "leveB_stu_num": null,
+            "leveC_stu_num": null,
+            "leveF_stu_num": null,
+            "improvement_suggestions": null,
+            "course": "CS5351",
+            "section": "103",
+            "degree_name": "Computer Science",
+            "degree_level": "BA"
         }
     }
 ]
