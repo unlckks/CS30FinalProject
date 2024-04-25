@@ -32,4 +32,11 @@ urlpatterns = [
     # Queries involving evaluations
     path('evaluationquery/', views.evaluationquery, name='evaluationquery'),
     path('passratequery/', views.passratequery, name='passratequery'),
+
+    # queryDetail
+    path('course_result/', views.query_course, name='course_result'),
+    path('instructor_result/', views.instructor_sections, name='instructor_result'),
+    path('degree_result/', views.degree_details, name='degree_result'),
+
+
 ]

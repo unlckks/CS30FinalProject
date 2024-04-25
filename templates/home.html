@@ -60,7 +60,22 @@
           <p class="card-text">Review pass rate statistics and analyze performance metrics.</p>
           <a href="{% url 'university:passratequery' %}" class="btn btn-primary">View Pass Rates</a>
         </div>
+          
+          <div class="card" style="width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title">Degree Query</h5>
+          <a href="{% url 'university:degree_result' %}" class="btn btn-primary">View Degree</a>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Instructor Query</h5>
+          <a href="{% url 'university:instructor_result' %}" class="btn btn-primary">View Instructor</a>
+        </div>
+         <div class="card-body">
+          <h5 class="card-title">Course Query</h5>
+          <a href="{% url 'university:course_result' %}" class="btn btn-primary">View course</a>
+        </div>
       </div>
     </div>
 </div>
+      
 {% endblock  %}
