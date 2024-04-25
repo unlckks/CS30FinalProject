@@ -5,6 +5,9 @@ app_name ='university'
 urlpatterns = [
     # Degree
     path('degree/', views.degree, name='degree'),
+    path('degree/add_degree/', views.add_degree, name='add_degree'),
+    path('degree/delete_degree/', views.delete_degree, name='delete_degree'),
+    path('degree/<str:Name>/edit_degree/', views.edit_degree, name='edit_degree'),
     
      # DegreeCourse
     path('degreecourse/', views.degreecourse, name='degreecourse'),

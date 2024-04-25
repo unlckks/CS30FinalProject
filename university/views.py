@@ -35,6 +35,31 @@ def degree(request):
     queryset = models.Degree.objects.all()
     return render(request, 'university/degree/degree.html',{'queryset':queryset})
 
+def add_degree(request):
+    if request.method == "GET":
+        return render(request,'university/degree/add_degree.html')
+    # Degree_Id = request.POST.get("degree_id")
+    Name = request.POST.get("name")
+    Level = request.POST.get("level")
+    models.Degree.objects.create(name=Name,level=Level)
+    return redirect("/degree/")
+
+def delete_degree(request):
+    name = request.GET.get('name')
+    level = request.GET.get('level')
+    if name and level:
+        models.Degree.objects.filter(name=name, level=level).delete()
+    return redirect('/degree/')
+
+def edit_degree(request, Name):
+    if request.method =='GET':
+        row_object = models.Degree.objects.filter(name=Name).first()
+        return render(request,'university/degree/edit_degree.html', {"row_object":row_object})
+    
+    Level = request.POST.get("level")
+    models.Degree.objects.filter(name=Name).update(level=Level)
+    return redirect("/degree/")
+
 # DegreeCourse
 def degreecourse(request):
     queryset = models.DegreeCourse.objects.all()

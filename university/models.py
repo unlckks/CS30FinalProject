@@ -40,6 +40,7 @@ class Section(models.Model):
         ('Fall', 'Fall'),
     ]
 
+    degree = models.ForeignKey(Degree, on_delete=models.CASCADE, related_name='sections')
     course = models.ForeignKey(Course, on_delete=models.CASCADE, related_name='sections')
     instructor = models.ForeignKey(Instructor, on_delete=models.CASCADE, related_name='sections')
     section_id = models.CharField(max_length=3, validators=[
