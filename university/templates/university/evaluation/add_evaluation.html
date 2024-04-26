@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block content %}
+<nav class="navbar navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Promgram Evaluation</a>
+      <div class="offcanvas offcanvas-end text-bg-primary" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      </div>
+    </div>
+</nav>
+<div class="mt-5 pt-5">
+  <div class="container">
+      <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Add New Evaluation</h3>
+          </div>
+          <div class="panel-body">
+              <form class="form-horizontal" method="post">
+                {% csrf_token %}
+                  <div class="form-group mb-4">
+                    <label class="col-sm-2 control-label">Evaluate_Id</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" placeholder="Evaluate_Id" name="evaluate_id">
+                    </div>
+                  </div>
+                  <div class="form-group mb-4">
+                    <label class="col-sm-2 control-label">Method</label>
+                    <div class="col-sm-5">
+                      <input type="text" class="form-control" placeholder="Method" name="method">
+                    </div>
+                  </div>
+                  <div class="form-group mb-4">
+                    <label class="col-sm-2 control-label">LevelA_Stu_Num</label>
+                    <div class="col-sm-5">
+                       <input type="text" class="form-control" placeholder="LevelA_Stu_Num" name="levelA_stu_num">
+                    </div>
+                  </div>              
+                  <div class="form-group mb-4">
+                    <label class="col-sm-2 control-label">LevelB_Stu_Num</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" placeholder="LevelB_Stu_Num" name="levelB_stu_num">
+                    </div>
+                  </div>
+                  <div class="form-group mb-4">
+                    <label class="col-sm-2 control-label">LevelC_Stu_Num</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" placeholder="LevelC_Stu_Num" name="levelC_stu_num">
+                    </div>
+                  </div>
+                  <div class="form-group mb-4">
+                    <label class="col-sm-2 control-label">LevelF_Stu_Num</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" placeholder="LevelF_Stu_Num" name="levelF_stu_num">
+                    </div>
+                  </div>
+                  <div class="form-group mb-4">
+                    <label class="col-sm-2 control-label">Course_Id</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" placeholder="Course_Id" name="course_id">
+                    </div>
+                  </div>
+                  <div class="form-group mb-4">
+                    <label class="col-sm-2 control-label">Section_Id</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" placeholder="Section_Id" name="section_id">
+                    </div>
+                  </div>
+                  <div class="form-group mb-4">
+                    <label class="col-sm-2 control-label">Degree_Id</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" placeholder="Degree_Id" name="degree_id">
+                    </div>
+                  </div>
+                  <div class="form-group mb-4">
+                    <label class="col-sm-2 control-label">Improvement_Suggestions</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" placeholder="Improvement_Suggestions" name="improvement_suggestions"
+                             style="height: 100px; padding-top: 0px; padding-bottom: 60px;">
+                    </div>
+                  </div>
+                  <div class="form-group mb-4">
+                    <div class="col-sm-offset-2 col-sm-10 d-flex justify-content-between">
+                      <button type="submit" class="btn btn-warning mb-2">Add</button>
+                      <a class="btn btn-secondary" href="/evaluation/">Back to Evaluation</a>
+                    </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+{% endblock  %}

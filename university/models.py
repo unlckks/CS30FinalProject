@@ -56,7 +56,7 @@ class Section(models.Model):
 class Objective(models.Model):
     objective_code = models.CharField(max_length=10, primary_key=True)
     title = models.CharField(max_length=120, unique=True)
-    description = models.TextField()
+    description = models.TextField(blank=True, null=True)
     course = models.ForeignKey(Course, on_delete=models.CASCADE)
 
 class Evaluation(models.Model):
@@ -69,6 +69,7 @@ class Evaluation(models.Model):
     improvement_suggestions = models.TextField(blank=True, null=True)
     course = models.ForeignKey(Course, on_delete=models.CASCADE)  
     section = models.ForeignKey(Section, on_delete=models.CASCADE)
+    degree = models.ForeignKey(Degree, on_delete=models.CASCADE)
     degree_name = models.CharField(max_length=255, default='Default Name')
     degree_level = models.CharField(max_length=50, default='Default Level')
 

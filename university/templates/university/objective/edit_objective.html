@@ -12,31 +12,38 @@
   <div class="container">
       <div class="panel panel-default">
           <div class="panel-heading">
-            <h3 class="panel-title">Update Degree</h3>
+            <h3 class="panel-title">Update Objective</h3>
           </div>
           <div class="panel-body">
               <form class="form-horizontal" method="post">
                 {% csrf_token %}
 
                   <div class="form-group mb-4">
-                    <label class="col-sm-2 control-label">Name</label>
+                    <label class="col-sm-2 control-label">Objective_Code</label>
                     <div class="col-sm-4">
-                      <input type="text" class="form-control" placeholder="Name" name="name" 
-                             value="{{row_object.name}}"/>
+                      <input type="text" class="form-control" placeholder="Objective_Code" name="objective_code" 
+                             value="{{row_object.objective_code}}"/>
                     </div>
                   </div>
                   <div class="form-group mb-4">
-                    <label class="col-sm-2 control-label">Level</label>
+                    <label class="col-sm-2 control-label">Title</label>
                     <div class="col-sm-5">
-                      <input type="text" class="form-control" placeholder="Level" name="level" 
-                             value="{{row_object.level}}"/>
+                      <input type="text" class="form-control" placeholder="Title" name="title" 
+                             value="{{row_object.title}}"/>
+                    </div>
+                  </div>
+                  <div class="form-group mb-4">
+                    <label class="col-sm-2 control-label">Description</label>
+                    <div class="col-sm-5">
+                      <input type="text" class="form-control" placeholder="Description" name="description" 
+                             value="{{row_object.description}}"/>
                     </div>
                   </div>
 
                   <div class="form-group mb-4">
                     <div class="col-sm-offset-2 col-sm-10 d-flex justify-content-between">
                       <button type="submit" class="btn btn-warning mb-2">Update</button>
-                      <a class="btn btn-secondary" href="/degree/">Back to Degree</a>
+                      <a class="btn btn-secondary" href="/objective/">Back to Objective</a>
                     </div>
                   </div>
               </form>

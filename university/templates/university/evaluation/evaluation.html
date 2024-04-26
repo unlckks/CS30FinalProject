@@ -13,7 +13,7 @@
         <div style="margin-bottom: 10px">
             <a class="btn btn-success" href="add_evaluation/">
                 <i class="bi bi-plus-circle"></i> <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
-                Add Evaluation
+                Add New Evaluation
             </a>
         </div>
 
@@ -36,6 +36,7 @@
                           <th scope="col">Improvement_Suggestions</th>
                           <th scope="col">Course_Id</th>
                           <th scope="col">Section_Id</th>
+                          <th scope="col">Degree_Id</th>
                           <th scope="col">Degree_name</th>
                           <th scope="col">Degree_Level</th>
                           <th scope="col">Operations</th>
@@ -44,8 +45,8 @@
                       <tbody>
                       {% for obj in queryset %}
                         <tr>
-                            <th>{{ obj.evaluate_id }}</th>
-                            <td>{{ obj.method }}</td>
+                            <th>{{obj.evaluate_id }}</th>
+                            <td>{{obj.method }}</td>
                             <td>{{obj.levelA_stu_num}}</td>
                             <td>{{obj.levelB_stu_num}}</td>
                             <td>{{obj.levelC_stu_num}}</td>
@@ -53,11 +54,12 @@
                             <td>{{obj.improvement_suggestions}}</td>
                             <td>{{obj.course_id}}</td>
                             <td>{{obj.section_id}}</td>
-                            <td>{{obj.degree_name}}</td>
-                            <td>{{obj.degree_level}}</td>
+                            <td>{{obj.degree_id}}</td>
+                            <td>{{obj.degree.name}}</td>
+                            <td>{{obj.degree.level}}</td>
                             <td>
-                              <a class="btn btn-warning"href="#">Edit</a>
-                              <a class="btn btn-danger" href="#">Delete</a>
+                              <a class="btn btn-warning"href="/evaluation/{{obj.evaluate_id}}/edit_evaluation/">Edit</a>
+                              <a class="btn btn-danger" href="/evaluation/delete_evaluation/?evaluate_id={{obj.evaluate_id}}">Delete</a>
                             </td>
                         </tr>
                       {% endfor %}

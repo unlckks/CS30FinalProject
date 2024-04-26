@@ -11,6 +11,9 @@ urlpatterns = [
     
      # DegreeCourse
     path('degreecourse/', views.degreecourse, name='degreecourse'),
+    path('degreecourse/add_degreecourse/', views.add_degreecourse, name='add_degreecourse'),
+    path('degreecourse/delete_degreecourse/', views.delete_degreecourse, name='delete_degreecourse'),
+    path('degreecourse/<str:Course_Id>/edit_degreecourse/', views.edit_degreecourse, name='edit_degreecourse'),
     
     # Course
     path('course/', views.course, name='course'),
@@ -20,15 +23,30 @@ urlpatterns = [
     
     # Instructor
     path('instructor/', views.instructor, name='instructor'),
+    path('instructor/add_instructor/', views.add_instructor, name='add_instructor'),
+    path('instructor/delete_instructor/', views.delete_instructor, name='delete_instructor'),
+    path('instructor/<str:Id>/edit_instructor/', views.edit_instructor, name='edit_instructor'),
     
     # Section
     path('section/', views.section, name='section'),
+    path('section/add_section/', views.add_section, name='add_section'),
+    path('section/delete_section/', views.delete_section, name='delete_section'),
+    path('section/<str:Section_Id>/edit_section/', views.edit_section, name='edit_section'),
+    
     
     # Objective
     path('objective/', views.objective, name='objective'),
+    path('objective/add_objective/', views.add_objective, name='add_objective'),
+    path('objective/delete_objective/', views.delete_objective, name='delete_objective'),
+    path('objective/<str:Objective_Code>/edit_objective/', views.edit_objective, name='edit_objective'),
+    
+    
     
     # Evaluation
     path('evaluation/', views.evaluation, name='evaluation'),
+    path('evaluation/add_evaluation/', views.add_evaluation, name='add_evaluation'),
+    path('evaluation/delete_evaluation/', views.delete_evaluation, name='delete_evaluation'),
+    path('evaluation/<str:Evaluate_Id>/edit_evaluation/', views.edit_evaluation, name='edit_evaluation'),
     # Queries involving evaluations
     path('evaluationquery/', views.evaluationquery, name='evaluationquery'),
     path('passratequery/', views.passratequery, name='passratequery'),
