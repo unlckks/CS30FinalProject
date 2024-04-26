@@ -27,6 +27,14 @@
             "name": "Jane Ginger"
         }
     },
+    
+    {
+        "model": "university.instructor",
+        "pk": "IN454",
+        "fields": {
+            "name": "Jack Doe"
+        }
+    },
     {
         "model": "university.instructor",
         "pk": "IN455",

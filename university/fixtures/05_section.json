@@ -538,7 +538,7 @@
             "degree": 2,
             "course": "CS7359",
             "instructor": "IN454",
-            "section_id": "101",
+            "section_id": "102",
             "semester": "Spring",
             "year": 2024,
             "enrolled_stu_num": 12
@@ -551,7 +551,7 @@
             "degree": 3,
             "course": "CS7359",
             "instructor": "IN454",
-            "section_id": "101",
+            "section_id": "102",
             "semester": "Spring",
             "year": 2024,
             "enrolled_stu_num": 24
@@ -564,7 +564,7 @@
             "degree": 5,
             "course": "CS7359",
             "instructor": "IN454",
-            "section_id": "101",
+            "section_id": "102",
             "semester": "Spring",
             "year": 2024,
             "enrolled_stu_num": 60
