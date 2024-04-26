@@ -379,9 +379,17 @@ def handle_pass_rate_query(request, semester_param, percentage_param):
         
         total_passed = total_students = 0
         for eval in queryset:
-            # Assuming all these fields are integers and include the count of students at each grade level
-            passed = eval.levelA_stu_num + eval.levelB_stu_num + eval.levelC_stu_num
-            total = passed + eval.levelF_stu_num
+            # Check if all fields are filled
+            if eval.levelA_stu_num is None or eval.levelB_stu_num is None or eval.levelC_stu_num is None or eval.levelF_stu_num is None:
+                continue  # Skip this evaluation as it is incomplete
+
+            levelA = eval.levelA_stu_num
+            levelB = eval.levelB_stu_num
+            levelC = eval.levelC_stu_num
+            levelF = eval.levelF_stu_num
+
+            passed = levelA + levelB + levelC
+            total = passed + levelF
 
             if total > 0:
                 total_passed += passed
@@ -389,7 +397,6 @@ def handle_pass_rate_query(request, semester_param, percentage_param):
 
         if total_students > 0:
             pass_rate = (total_passed / total_students) * 100
-            # Check if pass rate meets the specified percentage threshold
             if pass_rate >= float(percentage_param):
                 return render(request, 'university/evaluation/passratequery.html', {
                     'pass_rate': f'Pass rate is {pass_rate:.2f}% and meets or exceeds the threshold of {percentage_param}%.'})
@@ -397,8 +404,8 @@ def handle_pass_rate_query(request, semester_param, percentage_param):
                 return render(request, 'university/evaluation/passratequery.html', {
                     'pass_rate': f'Pass rate is {pass_rate:.2f}% and does not meet the threshold of {percentage_param}%.'})
         else:
-            return render(request, 'university/evaluation/passratequery.html', {'message': 'No student data available to calculate pass rate.'})
-        
+            return render(request, 'university/evaluation/passratequery.html', {'message': 'No complete student data available to calculate pass rate.'})
+
     except ValueError:
         return render(request, 'university/evaluation/passratequery.html', {'error': 'Invalid semester format or percentage value.'})
 
