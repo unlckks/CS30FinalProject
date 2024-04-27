@@ -496,28 +496,12 @@ def degree_details(request):
 
 
 
-
 def evaluation_detail(request, id):
     # Get evaluation object or return 404
     evaluation = get_object_or_404(models.Evaluation, evaluate_id=id)
 
     # Initialize the form with POST data if applicable
     form = forms.EvaluationQueryForm(request.POST or None)
-
-    # Validate and process the form if POST method and form is valid
-    if request.method == 'POST' and form.is_valid():
-        degree = form.cleaned_data['degree']
-        instructor = form.cleaned_data['instructor']
-        semester = form.cleaned_data['semester']
-        year = form.cleaned_data['year']
-        # Retrieve courses for the given instructor and semester
-        sections = models.Section.objects.filter(instructor=instructor, semester=semester, year=year, degree=degree)
-        return render(
-            request,
-            'university/evaluation/enter_evaluations.html',
-            {'sections': sections, 'form': form}
-        )
-
     # Collect evaluation information
     evaluations = models.Evaluation.objects.all()
     evaluations_info = [
@@ -547,6 +531,22 @@ def evaluation_detail(request, id):
         ]
         if missing_fields:
             incomplete_evaluations[info['evaluate_id']] = missing_fields
+
+    # Validate and process the form if POST method and form is valid
+    if request.method == 'POST' and form.is_valid():
+        degree = form.cleaned_data['degree']
+        instructor = form.cleaned_data['instructor']
+        semester = form.cleaned_data['semester']
+        year = form.cleaned_data['year']
+        # Retrieve courses for the given instructor and semester
+        sections = models.Section.objects.filter(instructor=instructor, semester=semester, year=year, degree=degree)
+        return render(
+            request,
+            'university/evaluation/enter_evaluations.html',
+            {'sections': sections, 'form': form  , 'evaluation': evaluation, 'total_evaluations': len(evaluations),
+            'evaluations_info': evaluations_info,
+            'incomplete_evaluations': incomplete_evaluations,}
+        )
 
     return render(
         request,
