@@ -11,8 +11,10 @@
 8. [Run the Server](#run-the-server)
 
 ## 📌 Prerequisites
-- Python 3 installed on your system
-- PostgreSQL installed on your system
+- Python 3 installed on  env
+- Mysql installed on  env
+- Django installed on  env
+- Mysql-Client installed on env
 
 ## 🗄️ Database Setup
 1. **Create a PostgreSQL Database**
