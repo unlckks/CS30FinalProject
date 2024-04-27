@@ -49,13 +49,13 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
 <!-- JavaScript to trigger the success modal if a success message is present -->
-<script>
-    $(document).ready(function () {
-        const successMessage = "{{ messages|first|escapejs }}";
-        if (successMessage === 'Evaluation copied successfully!') {
-            $('#successModal').modal('show');
-        }
-    });
-</script>
+    <script>
+        $(document).ready(function () {
+            const successMessage = "{{ messages.success }}";
+            if (successMessage) {
+                $('#successModal').modal('show');
+            }
+        });
+    </script>
 </body>
 </html>
