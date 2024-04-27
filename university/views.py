@@ -1,7 +1,7 @@
 from django.http import HttpResponse, Http404
-from django.shortcuts import render,redirect
+from django.shortcuts import render,redirect ,get_object_or_404
 from university import models ,forms
-
+from django.contrib import messages
 
 # Course
 def course(request):
@@ -492,3 +492,121 @@ def degree_details(request):
             })
 
     return render(request, 'university/degree/degree_result.html', context)
+
+
+
+
+
+def evaluation_detail(request, id):
+    # Get evaluation object or return 404
+    evaluation = get_object_or_404(models.Evaluation, evaluate_id=id)
+
+    # Initialize the form with POST data if applicable
+    form = forms.EvaluationQueryForm(request.POST or None)
+
+    # Validate and process the form if POST method and form is valid
+    if request.method == 'POST' and form.is_valid():
+        degree = form.cleaned_data['degree']
+        instructor = form.cleaned_data['instructor']
+        semester = form.cleaned_data['semester']
+        year = form.cleaned_data['year']
+        # Retrieve courses for the given instructor and semester
+        sections = models.Section.objects.filter(instructor=instructor, semester=semester, year=year, degree=degree)
+        return render(
+            request,
+            'university/evaluation/enter_evaluations.html',
+            {'sections': sections, 'form': form}
+        )
+
+    # Collect evaluation information
+    evaluations = models.Evaluation.objects.all()
+    evaluations_info = [
+        {
+            'evaluate_id': eval.evaluate_id,
+            'method': eval.method or 'Not Entered',
+            'levelA_stu_num': eval.levelA_stu_num or 'Not Entered',
+            'levelB_stu_num': eval.levelB_stu_num or 'Not Entered',
+            'levelC_stu_num': eval.levelC_stu_num or 'Not Entered',
+            'levelF_stu_num': eval.levelF_stu_num or 'Not Entered',
+            'improvement_suggestions': eval.improvement_suggestions or 'Not Entered',
+            'course': eval.course or 'Not Entered',
+            'section': eval.section or 'Not Entered',
+            'degree_name': eval.degree_name or 'Not Entered',
+            'degree_level': eval.degree_level or 'Not Entered',
+        }
+        for eval in evaluations
+    ]
+
+    # Identify missing information for each evaluation
+    incomplete_evaluations = {}
+    for info in evaluations_info:
+        missing_fields = [
+            field_name
+            for field_name, field_value in info.items()
+            if field_value == 'Not Entered'
+        ]
+        if missing_fields:
+            incomplete_evaluations[info['evaluate_id']] = missing_fields
+
+    return render(
+        request,
+        'university/evaluation/enter_evaluations.html',
+        {
+            'evaluation': evaluation,
+            'form': form,
+            'total_evaluations': len(evaluations),
+            'evaluations_info': evaluations_info,
+            'incomplete_evaluations': incomplete_evaluations,
+        }
+    )
+
+def copy_evaluation(request ):
+        if request.method == 'POST':
+            form = forms.DegreeCopyForm(request.POST)
+
+            if form.is_valid():
+                source_degree = form.cleaned_data['source_degree']
+                target_degrees = form.cleaned_data['target_degrees']
+
+                if source_degree and target_degrees:
+                    for target_degree in target_degrees:
+                        try:
+                            existing_evaluation = models.Evaluation.objects.get(
+                                degree_name=target_degree.degree_name,
+                                degree_level=target_degree.degree_level
+                            )
+                            existing_evaluation.levelA_stu_num = source_degree.levelA_stu_num
+                            existing_evaluation.levelB_stu_num = source_degree.levelB_stu_num
+                            existing_evaluation.levelC_stu_num = source_degree.levelC_stu_num
+                            existing_evaluation.levelF_stu_num = source_degree.levelF_stu_num
+                            existing_evaluation.method = source_degree.method
+                            existing_evaluation.improvement_suggestions = source_degree.improvement_suggestions
+                            existing_evaluation.save()
+                        except models.Evaluation.DoesNotExist:
+                            models.Evaluation.objects.create(
+                                degree_name=target_degree.degree_name,
+                                degree_level=target_degree.degree_level,
+                                method=source_degree.method,
+                                levelA_stu_num=source_degree.levelA_stu_num,
+                                levelB_stu_num=source_degree.levelB_stu_num,
+                                levelC_stu_num=source_degree.levelC_stu_num,
+                                levelF_stu_num=source_degree.levelF_stu_num,
+                                improvement_suggestions=source_degree.improvement_suggestions,
+                            )
+                    messages.success(request, 'Evaluation copied successfully!')
+                else:
+                    messages.error(request, 'Invalid form select.')
+
+            context = {
+                'form': forms.DegreeCopyForm(),
+                'messages': list(messages.get_messages(request)),  # Retrieve message list
+            }
+
+            return render(request, 'university/evaluation/copy_evaluations.html', context)
+        else:
+
+            return render(
+                request,
+                'university/evaluation/copy_evaluations.html',
+                {'form': forms.DegreeCopyForm()}
+            )

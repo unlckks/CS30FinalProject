@@ -73,10 +73,9 @@ class Evaluation(models.Model):
     degree_name = models.CharField(max_length=255, default='Default Name')
     degree_level = models.CharField(max_length=50, default='Default Level')
 
+    # Modify the save method to avoid undefined attribute reference
     def save(self, *args, **kwargs):
-        if not self.pk:  
-            self.degree_name = self.degree.name
-            self.degree_level = self.degree.level
+        # Removed reference to 'degree', as it's not defined in this context
         super().save(*args, **kwargs)
 
 class EvaluatorObjective(models.Model):
